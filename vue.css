@@ -5,6 +5,7 @@
     --control-text-color: #777;
     --font-sans-serif: 'Ubuntu', 'Source Sans Pro', sans-serif !important;
     --font-monospace: 'Fira Code', 'Roboto Mono', monospace !important;
+    --main-color: dodgerblue;
 }
 
 html {
@@ -116,12 +117,12 @@ h3 a {
 
 h1 {
     padding-bottom: .4rem;
-    font-size: 2.2rem;
+    font-size: 2rem;
     line-height: 1.3;
 }
 
 h2 {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     line-height: 1.225;
     margin: 35px 0 15px;
     padding-bottom: 0.5em;
@@ -129,7 +130,7 @@ h2 {
 }
 
 h3 {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     line-height: 1.43;
     margin: 20px 0 7px;
 }
@@ -145,6 +146,30 @@ h5 {
 h6 {
     font-size: 1rem;
     color: #777;
+}
+
+h1::before, h2::before, h3::before {
+    color: var(--main-color);
+    opacity: 0.8;
+}
+
+h1::before {
+    content: "# ";
+}
+
+h2::before {
+    content: "## ";
+}
+
+h3::before {
+    content: "### ";
+}
+
+#write > h3.md-focus:before  {
+    all: unset;
+    content: "### ";
+    color: var(--main-color);
+    opacity: 0.8;
 }
 
 p,
