@@ -51,10 +51,15 @@ body > *:last-child {
 }
 
 a {
-    color: #42b983;
+    color: forestgreen;
     font-weight: 600;
     padding: 0 2px;
     text-decoration: none;
+}
+
+#write > a {
+    border-bottom: 1px dashed var(--main-color);
+    padding-bottom: 1px;
 }
 
 h1,
