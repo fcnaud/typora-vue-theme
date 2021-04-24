@@ -323,9 +323,6 @@ table tr td:last-child {
     background-color: #f2f2f2;
 }
 
-#write .CodeMirror-gutters {
-    border-right: none;
-}
 
 #write .md-fences {
     border: 1px solid #F4F4F4;
@@ -342,6 +339,7 @@ table tr td:last-child {
 
 #write .CodeMirror-wrap .CodeMirror-code pre {
     padding-left: 12px;
+    font-family: var(--monospace);
 }
 
 #write code, tt {
@@ -377,7 +375,7 @@ tt {
 }
 
 .cm-s-inner .cm-link,
-.cm-s-inner.cm-link {
+.cm-s-inner .cm-link {
     color: #22a2c9;
 }
 
