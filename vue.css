@@ -57,7 +57,7 @@ a {
     text-decoration: none;
 }
 
-#write > a {
+#write a {
     border-bottom: 1px dashed var(--main-color);
     padding-bottom: 1px;
 }
