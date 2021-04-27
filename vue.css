@@ -135,6 +135,7 @@ h2 {
     border-left-color: var(--main-color);
     border-radius: 3px;
     padding-left: 5px;
+    margin: 40px 0px 20px;
 }
 
 h3 {
