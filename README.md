@@ -32,3 +32,8 @@
 ![Screenshot 5](https://github.com/MamoruDS/typora-vue-theme/raw/master/screenshots/screenshot_02.png)
 
 > **Thanks**: This `vue-dark.css` by [typora-vue-dark-theme](https://github.com/MamoruDS/typora-vue-dark-theme).
+
+``` shell
+new-item -itemtype hardlink -path C:\Users\Admin\AppData\Roaming\Typora\themes\vue.css -target ./vue.css
+new-item -itemtype junction -path C:\Users\Admin\AppData\Roaming\Typora\themes\vue -target ./vue
+```
